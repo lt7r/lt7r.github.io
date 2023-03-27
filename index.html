@@ -3,38 +3,35 @@
   <head>
     <title>My Online Profiles</title>
     <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    <header>
-      <h1>My Online Profiles</h1>
-    </header>
-    <main>
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/lucas-teste/">
-            <img src="./assets/img/linkedin-logo.png" alt="LinkedIn Logo">
-            <p>LinkedIn</p>
-          </a>
-        </li>
-        <li>
-          <a href="https://tryhackme.com/p/lt7">
-            <img src="./assets/img/tryhackme-logo.png" alt="TryHackMe Logo">
-            <p>TryHackMe</p>
-          </a>
-        </li>
-        <li>
-          <a href="https://app.hackthebox.com/profile/786718">
-            <img src="./assets/img/hackthebox-logo.png" alt="HackTheBox Logo">
-            <p>HackTheBox</p>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.root-me.org/lt7?lang=fr">
-            <img src="./assets/img/rootme-logo.png" alt="Root Me Logo">
-            <p>Root Me</p>
-          </a>
-        </li>
-      </ul>
-    </main>
+    <div class="main">
+      <a href="https://www.linkedin.com/in/lucas-teste/" class="nav-item">
+        <div class="nav-links transition-all">
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+        <span class="nav-link-text">LinkedIn</span>
+      </a>
+      <a href="https://app.hackthebox.com/profile/786718" class="nav-item">
+        <div class="nav-links transition-all">
+          <i class="fa-solid fa-cube"></i>
+        </div>
+        <span class="nav-link-text">HackTheBox</span>
+      </a>
+      <a href="https://www.root-me.org/lt7?lang=fr" class="nav-item">
+        <div class="nav-links">
+          <i class="fa-solid fa-skull"></i>
+        </div>
+        <span class="nav-link-text">Root-Me</span>
+      </a>
+      <a href="https://tryhackme.com/p/lt7" class="nav-item">
+        <div class="nav-links transition-all">
+          <i class="fa-solid fa-cloud"></i>
+        </div>
+        <span class="nav-link-text">TryHackMe</span>
+      </a>
+    </div>
   </body>
 </html>
+
